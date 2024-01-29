@@ -7,23 +7,35 @@
     --text-color-light: #FFFFFF;
     --color-button: #4D5AE5;
     --color-accent:#4D5AE5;
-  }
+}
 
-.body {
-    font-family: "Roboto";
-    color:  #434455, #2E2F42;
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
     background-color: #FFFFFF;
-  }
+}
 
-  .accent {
+.accent {
     color: var(--color-accent);
-  }
+}
 
-  .nav-link {
+.nav-link {
     color: var(--text-color);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-decoration: none;
-  }
+}
+
+
+.logo {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    margin-right: 88px;
+}
