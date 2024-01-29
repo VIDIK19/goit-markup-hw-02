@@ -1,7 +1,7 @@
 :root {
     --basic-bgc: #FFFFFF; 
     --color-accent: #4d5ae5;
-    --text-color-dark: #2e2f42; 
+    --text-color-dark: #434455; 
 
 }
 
@@ -47,3 +47,6 @@ body {
     color: #404bbf;
 }
 
+address {
+    font-style: normal
+}
