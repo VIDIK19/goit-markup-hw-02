@@ -2,6 +2,7 @@
     --basic-bgc: #FFFFFF; 
     --color-accent: #4d5ae5;
     --text-color-dark: #434455; 
+    --second-bgc: #F4F4FD;
 
 }
 
@@ -47,6 +48,17 @@ body {
     color: #404bbf;
 }
 
-address {
+.address {
     font-style: normal
 }
+
+.btn {
+    color: var(--color-accent);
+    background-color: var(--second-bgc);
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
