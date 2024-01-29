@@ -1,17 +1,29 @@
 :root {
     --basic-bgc: #FFFFFF;
-    --dark-bgc: #2F303A;
+    --dark-bgc: #2E2F42;
     --second-bgc: #F5F4FA;
-    --text-color: #212121;
+    --text-color: #2E2F42;
     --second-text-color: #757575;
     --text-color-light: #FFFFFF;
-    --color-button: #2196F3;
-    --color-accent:#2196F3;
+    --color-button: #4D5AE5;
+    --color-accent:#4D5AE5;
   }
 
 body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
+    font-family: "Roboto";
+    color:  #434455, #2E2F42;
     background-color: #FFFFFF;
   }
 
+  .accent {
+    color: var(--color-accent);
+  }
+
+  .nav-link {
+    color: var(--text-color);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+  }
