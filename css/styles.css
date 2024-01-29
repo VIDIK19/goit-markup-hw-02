@@ -9,7 +9,7 @@
     --color-accent:#4D5AE5;
   }
 
-body {
+.body {
     font-family: "Roboto";
     color:  #434455, #2E2F42;
     background-color: #FFFFFF;
